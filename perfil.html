@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Perfil</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <header>
+        <h1>Digregory Chanchamire</h1>
+        <p>Estudiante de Informática TCU · IUTA Puerto La Cruz</p>
+    </header>
+
+    <section>
+        <h2>Sobre Mí</h2>
+        <p>Hola, soy Digregory Chanchamire. Entré al mundo de la programación porque desde siempre me han gustado mucho los videojuegos y me llamaba la atención la idea de poder desarrollarlos yo mismo algún día. Además, siempre he sido muy curioso sobre cómo funcionan las redes sociales y todo el entorno de internet, lo cual me motivó a aprender a crear cosas en este medio.</p>
+    </section>
+
+    <section>
+        <h2>Experiencia</h2>
+        <p>Mi experiencia práctica más fuerte ahora mismo es el desarrollo de mi proyecto de grado, en el cual estoy diseñando un sistema de control de inventario basado en bases de datos. A través de este proyecto y otras prácticas a lo largo de la carrera, he ido aplicando mis conocimientos en distintos lenguajes y herramientas para crear soluciones reales.</p>
+    </section>
+
+    <section>
+        <h2>Educación</h2>
+        <p>Actualmente curso estudios de Informática (TSU) en el Instituto Universitario de Tecnología de Administración Industrial (IUTA) Extensión Puerto La Cruz.</p>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>¿Quieres decirme algo? Déjame un mensaje.</p>
+
+        <form id="formulario">
+            <label>Nombre</label>
+            <input type="text" id="nombre" placeholder="Tu nombre">
+            <p class="error" id="errorNombre"></p>
+
+            <label>Correo</label>
+            <input type="text" id="correo" placeholder="tucorreo@gmail.com">
+            <p class="error" id="errorCorreo"></p>
+
+            <label>Mensaje</label>
+            <textarea id="mensaje" rows="5" placeholder="Escribe tu mensaje"></textarea>
+            <p class="error" id="errorMensaje"></p>
+
+            <button type="submit">Enviar</button>
+        </form>
+
+        <p id="respuesta"></p>
+    </section>
+
+    <footer>
+        <p>Digregory Chanchamire - 2026</p>
+    </footer>
+
+    <script src="contacto.js"></script>
+</body>
+</html>
